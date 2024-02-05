@@ -191,22 +191,25 @@
             // 
             // equal
             // 
+            equal.BackColor = SystemColors.Highlight;
+            equal.ForeColor = SystemColors.ControlText;
             equal.Location = new Point(22, 160);
             equal.Name = "equal";
             equal.Size = new Size(166, 23);
             equal.TabIndex = 14;
             equal.Text = "=";
-            equal.UseVisualStyleBackColor = true;
+            equal.UseVisualStyleBackColor = false;
             equal.Click += equal_Click;
             // 
             // clear
             // 
+            clear.BackColor = Color.Red;
             clear.Location = new Point(22, 131);
             clear.Name = "clear";
             clear.Size = new Size(37, 23);
             clear.TabIndex = 15;
             clear.Text = "C";
-            clear.UseVisualStyleBackColor = true;
+            clear.UseVisualStyleBackColor = false;
             clear.Click += clear_Click;
             // 
             // div
